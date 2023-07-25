@@ -1,4 +1,4 @@
-local CurrentVersion = "Insurgent Hub | Bidding Wars V1"
+local CurrentVersion = "Insurgent Hub | Bid Battles V1"
 
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Window = Rayfield:CreateWindow({
